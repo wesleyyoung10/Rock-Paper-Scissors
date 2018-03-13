@@ -7,3 +7,59 @@ body {
   min-height: 100%;
   font: 16px / 1 sans-serif;
 }
+
+h1 {
+  display: flex;
+  flex-direction:row;
+  justify-content: center; 
+  font-size: 5em;
+}
+ 
+p {
+  display: flex;
+  flex-direction:row;
+  justify-content: center; 
+  font-size: 3em;
+ }
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.imagez {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#myImage1 {
+  width: 200px;
+  height:200px;
+  position: relative;
+  top: 100px
+}
+
+#myImage2 {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  top: 100px
+}
+
+#myImage3 {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  top: 100px
+}
+
+footer {
+  font-size: 2.5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  top: 10em;
+  position: relative;
+}
